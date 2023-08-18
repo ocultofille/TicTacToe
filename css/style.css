@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(9, 194, 194);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size: cover;
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+}
+
+.fun {
+    float: left;
+    border: 1px solid black;
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+input.p1:focus,input.p2:focus,input.start:focus{
+    outline: none;
+    border:none;
+}
+#div2 {
+    display: none;
+}
+.p1,.p2{
+    display: block;
+    width:30%;
+    padding:10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.start{
+    width:15%;
+    margin-left:140px;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(234, 13, 234);
+}
+.main2{
+    margin-top: 100px;
+}
+
+
+.grid2{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
